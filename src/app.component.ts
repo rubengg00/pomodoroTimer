@@ -22,9 +22,8 @@ export class AppComponent {
   private timerId: any = null;
   
   // Audio files
-  private pomodoroStartSound = new Audio('/src/assets/inicio.wav');
-  private timerEndSound = new Audio('/src/assets/fin.wav');
-
+  private pomodoroStartSound = new Audio('/src/assets/start.mp3');
+  private timerEndSound = new Audio('/src/assets/finish.mp3');
 
   // Durations in seconds for testing
   private durations = {
