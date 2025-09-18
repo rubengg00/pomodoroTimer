@@ -27,9 +27,9 @@ export class AppComponent {
 
   // Durations in seconds for testing
   private durations = {
-    pomodoro: 10,
-    shortBreak: 3,
-    longBreak: 5,
+    pomodoro: 25 * 60,
+    shortBreak: 5 * 60,
+    longBreak: 15 * 60,
   };
 
   timeRemaining = signal(this.durations.pomodoro);
